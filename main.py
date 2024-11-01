@@ -21,6 +21,7 @@ pos_using = pyautogui.position()
 print("\n  USING POS:  ", pos_using, "\n") 
 
 while(True):
+  move_back_pos = pyautogui.position()
   rand = random.randrange(-2, 2)
 
   temp_pos = pyautogui.Point(pos_using.x + rand, pos_using.y + rand)
@@ -28,6 +29,8 @@ while(True):
   pyautogui.moveTo(temp_pos)
   pyautogui.click(temp_pos)
   print("  CLICKED_POS:  ", temp_pos) 
+
+  pyautogui.moveTo(move_back_pos) 
 
   sleep_clock = random.randrange(8,12)
   time.sleep(sleep_clock)
