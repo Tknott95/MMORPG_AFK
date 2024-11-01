@@ -18,7 +18,7 @@ while(True):
 
   temp_pos = pyautogui.Point(pos_using.x + rand, pos_using.y + rand)
 
-  pyautogui.moveTo(temp_pos)
+  pyautogui.moveTo(temp_pos) # Redundant yet I like to keep this in
   pyautogui.click(temp_pos)
   print("  CLICKED_POS:  ", temp_pos) 
 
