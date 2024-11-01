@@ -2,7 +2,7 @@
 
 ##### EXAMPLE
 python main.py (defaults to 8, 12)
-python main.py --range 20 (would be -20, 20)
+python main.py --range 20 (would be 20, 23)
 python main.py --range <YOUR-CHOICE-OF-INT>
 
 Coded here first: https://gist.github.com/Tknott95/85151bdb79d63fb4928f0dd66a392b42
