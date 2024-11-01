@@ -51,5 +51,7 @@ class WindowGrabber:
 # window_title = 'Untitled - Notepad'  
 # grabber = WindowGrabber(window_title)
 # top_left = (0, 0)  
+
+# will loop here and compare same as game-0engine deltaTime essentially does on certain CV objects for a basic sub system rather than timers losing modulus frequency via randomness. After such will use randomness on a 1,3 to emulate latency of thought.
 # region = grabber.extract_region(top_left)
 
