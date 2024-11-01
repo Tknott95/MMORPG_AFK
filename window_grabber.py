@@ -3,6 +3,8 @@ from PIL import ImageGrab
 import numpy as np
 import cv2
 
+# INSPIRE BY HOW OBS GRABS WINDOWS VIA TITLE
+
 class WindowGrabber:
   def __init__(self, window_title):
     self.window_title = window_title
