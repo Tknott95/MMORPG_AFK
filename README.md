@@ -9,6 +9,12 @@
 `python main.py --range <YOUR-CHOICE-OF-INT>`
 
 
+# FUTURE UPDATES
+ * OpenCV and Pillow window tracking
+ * Subscription style triggers rather thans leep_clocks with precision loops subroutine style
+ * Future AI enhancements using everything thrown into one brain via funciton mapping and llms (OSS AI)
+ 
+
 Coded here first: https://gist.github.com/Tknott95/85151bdb79d63fb4928f0dd66a392b42
 
 
