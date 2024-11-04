@@ -24,7 +24,6 @@ def pos(_p):
 while(True):
   move_back_pos = pyautogui.position()
 
-  # rand = random.randrange(-2, 2)
   temp_pos = pyautogui.Point(pos(pos_using))
 
   # if algorithm looks for bezier-esque moves before clicks (this data wouldn't be logged but possible local engine functions before replication) 
