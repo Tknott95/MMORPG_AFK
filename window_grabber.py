@@ -1,3 +1,6 @@
+# POSSIBLE FUTURE FUN ADDITION
+# I MAY NOT MAKE CODE SUCH AS THIS PUBLIC
+# I AM DECIDING ON THAT STILL.
 import pygetwindow as gw
 from PIL import ImageGrab
 import numpy as np
