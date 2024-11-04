@@ -34,9 +34,9 @@ while(True):
   pyautogui.moveTo(move_back_pos)
 
   if _args.range is not None:
-    sleep_clock = random.randrange(_args.range, _args.range + 3)
+    sleep_clock = random.uniform(_args.range, _args.range + 3)
     print("\n  RIGGING CUSTOM sleep_clock RANGE:  ", _args.range, "\n")
   else:
-    sleep_clock = random.randrange(8,12)
+    sleep_clock = random.uniform(8,12)
 
   time.sleep(sleep_clock)
