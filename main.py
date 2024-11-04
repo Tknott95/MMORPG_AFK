@@ -20,13 +20,15 @@ print("\n  USING POS:  ", pos_using, "\n")
 def pos(_p):
   return pyautogui.Point(_p.x + random.uniform(-2, 2), _p.y + random.uniform(-2, 2))
 
-
+# THIS SYSTEM WORKS FOR MORE COMPLEX SCENARIOS NOT PUBLIC
 while(True):
   move_back_pos = pyautogui.position()
 
   # rand = random.randrange(-2, 2)
   temp_pos = pyautogui.Point(pos(pos_using))
 
+  # if algorithm looks for beziar esque moves before clicks (this data wouldn't be logged but possible local engine functions before replication) 
+  # then you can emulate random move to move then hope lerps so only hits some of lerp before going to og pos and clicking. makes it look like person more.
   pyautogui.moveTo(temp_pos) # Redundant yet I like to keep this in
   pyautogui.click(temp_pos)
   print("  CLICKED_POS:  ", temp_pos) 
