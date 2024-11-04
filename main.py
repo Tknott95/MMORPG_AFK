@@ -4,7 +4,7 @@ import random
 import argparse
 
 _flags = argparse.ArgumentParser(description="Enable custom randrange loops.")
-_flags.add_argument('--range', type=int, help="feed me an int to min max from")
+_flags.add_argument('--range', type=float, help="feed me an int to min max from")
 _args = _flags.parse_args()
 
 print(" PLACE YOUR MOUSE WHERE YOU WANT TO AFK CLICK AND WAIT: \n")
