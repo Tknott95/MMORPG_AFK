@@ -1,4 +1,3 @@
-# A nice template to build more complex bots for whatever scenarios needed. This solution works for more complex scenarios as well with small tweaking.
 import pyautogui
 import time
 import random
