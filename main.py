@@ -20,6 +20,7 @@ def pos(_p):
   return pyautogui.Point(_p.x + random.uniform(-2, 2), _p.y + random.uniform(-2, 2))
 
 # THIS SYSTEM WORKS FOR MORE COMPLEX SCENARIOS NOT PUBLIC
+# WILL SHOW BABY EXAMPLES EVENTUALLY THAT ARE WORKING FOR AFK GRINDING COMPLEX SCENARIOS.
 while(True):
   move_back_pos = pyautogui.position()
 
