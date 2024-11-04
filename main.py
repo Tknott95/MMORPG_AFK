@@ -17,12 +17,15 @@ for i in range(2, 0, -1):
 pos_using = pyautogui.position()
 print("\n  USING POS:  ", pos_using, "\n") 
 
+def pos(_p):
+  return pyautogui.Point(_p.x + random.uniform(-2, 2), _p.y + random.uniform(-2, 2))
+
 
 while(True):
   move_back_pos = pyautogui.position()
 
-  rand = random.randrange(-2, 2)
-  temp_pos = pyautogui.Point(pos_using.x + rand, pos_using.y + rand)
+  # rand = random.randrange(-2, 2)
+  temp_pos = pyautogui.Point(pos(pos_using))
 
   pyautogui.moveTo(temp_pos) # Redundant yet I like to keep this in
   pyautogui.click(temp_pos)
